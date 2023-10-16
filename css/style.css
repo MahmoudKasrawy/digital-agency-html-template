@@ -748,7 +748,7 @@ body {
         left: 30px;
         transform: rotate(-90deg);
         transform-origin: top left;
-        background-color: #fdc21f;
+      background-color:#004b85 !important;
         height: 24px;
         width: 170px;
         bottom: -100px;
