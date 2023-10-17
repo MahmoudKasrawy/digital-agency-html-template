@@ -7,7 +7,7 @@
 }
 
 ::-webkit-scrollbar {
-    width: 9px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -22,7 +22,7 @@
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background:#012b5d;
+    background: #012b5d;
     cursor: pointer;
 }
 
@@ -284,10 +284,8 @@ body {
 
 }
 
-@media (max-width:1961px) {
-    .img {
-        width: 150px !important;
-    }
+@media (max-width:852px) {
+   
 }
 
 
@@ -378,25 +376,25 @@ body {
 .fw-bolder::before {
     content: 'Bundle';
     position: absolute;
-    left: -40px;
+    left: -50px;
     transform: rotate(-90deg);
     transform-origin: top left;
     font-size: 25px;
     font-weight: normal;
     z-index: 1;
-    color: rgb(165, 165, 165);
+    color: white;
 
 }
 
 .fw-bolder::after {
     content: '';
     position: absolute;
-    left: -25px;
+    left: -45px;
     transform: rotate(-90deg);
     transform-origin: top left;
-    background-color:#106fa5;
-    height: 20px;
-    width: 80px;
+    background-color: #106fa5;
+    height: 25px;
+    width: 100px;
     top: 0;
 }
 
@@ -432,7 +430,7 @@ body {
     font-size: 25px;
     font-weight: normal;
     z-index: 1;
-    color: rgb(165, 165, 165);
+    color: white;
 }
 
 .h1-relative::after {
@@ -463,7 +461,7 @@ body {
     font-weight: normal;
     z-index: 1;
     bottom: -100px;
-    color: rgb(152, 152, 152);
+    color: white;
 }
 
 .h1-relative2::after {
@@ -495,7 +493,7 @@ body {
     font-weight: normal;
     z-index: 1;
     bottom: -100px;
-    color: rgb(152, 152, 152);
+    color: white;
 }
 
 .p-relative::after {
@@ -528,7 +526,7 @@ body {
     z-index: 1;
     bottom: -100px;
     text-align: center;
-    color: rgb(152, 152, 152);
+    color: white;
 }
 
 .fw-normal::after {
@@ -538,43 +536,13 @@ body {
     transform: rotate(-90deg);
     transform-origin: top left;
     background-color: #106fa5;
-    height: 25px;
-    width: 130px;
+    height: 28px;
+    width: 135px;
     bottom: -100px;
 
 }
 
-.heads {
-    position: relative;
-}
 
-.heads::before {
-
-    content: 'Heads up !';
-    position: absolute;
-    font-weight: 500;
-    left: -100px;
-    transform: rotate(-90deg);
-    transform-origin: top left;
-    font-size: 25px;
-    font-weight: normal;
-    z-index: 1;
-    bottom: -80px;
-
-}
-
-.heads::after {
-    content: '';
-    position: absolute;
-    left: -97px;
-    transform: rotate(-90deg);
-    transform-origin: top left;
-    background-color: #106fa5;
-    height: 25px;
-    width: 130px;
-    bottom: -80px;
-
-}
 
 .service-item:hover {
     margin-top: -15px;
@@ -733,7 +701,7 @@ body {
         content: 'what to expect';
         position: absolute;
         font-weight: 500;
-        left: 15px;
+        left: 20px;
         transform: rotate(-90deg);
         transform-origin: top left;
         font-size: 25px;
@@ -748,7 +716,7 @@ body {
         left: 30px;
         transform: rotate(-90deg);
         transform-origin: top left;
-      background-color:#004b85 !important;
+        background-color: #004b85 !important;
         height: 24px;
         width: 170px;
         bottom: -100px;
@@ -772,12 +740,7 @@ body {
         justify-content: center;
     }
 
-    .img {
-        width: 25% !important;
-        padding: 20px !important;
-
-    }
-
+ 
     .gallary {
         margin-bottom: 15px;
     }
@@ -810,7 +773,7 @@ body {
 
 
 /*** Testimonial ***/
-.testimonial-carousel .testimonial-item {
+/* .testimonial-carousel .testimonial-item {
     padding: 0 30px 30px 30px;
 }
 
@@ -839,38 +802,20 @@ body {
     color: #FFFFFF;
     background: var(--primary);
     box-shadow: 0 0 10px rgba(0, 0, 0, .5);
-}
+} */
 
 
 /*** Team ***/
 .img {
 
     background-color: #116bb1 !important;
-    padding: 50px;
-    border-end-end-radius: 20px;
-    border-top-left-radius: 40%;
-
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 50px;
+    font-size: 50px;
 }
 
-.shap1 {
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40%;
-}
-
-.shap2 {
-    border-top-left-radius: 40px;
-    border-bottom-right-radius: 40%;
-}
-
-.shap3 {
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40%;
-}
-
-.shap4 {
-    border-bottom-right-radius: 40px;
-    border-top-right-radius: 40%;
-}
 
 .ms-5 li::before {
     background-color: #012b5d !important;
